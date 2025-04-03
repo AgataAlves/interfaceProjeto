@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video e audio</title>
+  </head>
+  <body>
+    <style>
+      nav {
+        display: flex;
+        width: 97vw;
+        justify-self: center;
+      }
+      nav div {
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+
+    <nav>
+      <div><a href="/arquivos/index.html">Home</a></div>
+      <div><a href="/arquivos/imagens.html">Imagens</a></div>
+      <div><a href="/arquivos/videoaudio.html">Video</a></div>
+      <div><a href="/arquivos/tabela.html">Tabela</a></div>
+    </nav>
+    <br />
+    <br />
+    <br />
+
+    <center>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/FWPGfrdlPGU?si=M5_RCARcMVQzfcc1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </center>
+    <br />
+    <br />
+    <br />
+
+    <center>
+      <audio controls>
+        <source src="../audio/point-basket.mp3" type="audio/mpeg" />
+      </audio>
+    </center>
+  </body>
+</html>

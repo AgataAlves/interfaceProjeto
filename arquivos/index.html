@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basquete</title>
+  </head>
+  <body>
+    <style>
+      .desaparecer {
+        display: none;
+      }
+      .aparecer {
+        display: block;
+      }
+      nav {
+        display: flex;
+        width: 97vw;
+        justify-self: center;
+      }
+      nav div {
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+    <script>
+      var abrirFecharCuriosidades = false;
+      function collapseCuriosidades() {
+        const curiosidades = document.getElementById("curiosidades");
+        abrirFecharCuriosidades = !abrirFecharCuriosidades;
+        if (abrirFecharCuriosidades == true) {
+          curiosidades.classList.remove("desaparecer");
+          curiosidades.classList.add("aparecer");
+        } else {
+          curiosidades.classList.remove("aparecer");
+          curiosidades.classList.add("desaparecer");
+        }
+      }
+    </script>
+
+    <nav>
+      <div><a href="/arquivos/index.html">Home</a></div>
+      <div><a href="/arquivos/imagens.html">Imagens</a></div>
+      <div><a href="/arquivos/videoaudio.html">Video</a></div>
+      <div><a href="/arquivos/tabela.html">Tabela</a></div>
+    </nav>
+
+    <p>
+      <center><h1>A História do Basquete</h1></center>
+    </p>
+    <p>
+      <center><h2>Sobre o Basquete e sua origem</h2></center>
+    </p>
+    <br />
+    <h3>Apresentação do esporte</h3>
+    <!--introdução do esporte-->
+    <hr />
+    <p>
+      &emsp; O basquete foi criado nos Estados Unidos, em 1891. O basquetebol é
+      um esporte coletivo de invasão praticado entre duas equipes. O jogo é
+      disputado com uma bola, tendo como objetivo colocá-la no cesto fixado nas
+      extremidades da quadra. O termo “basquetebol” vem da língua inglesa, onde
+      “basket” significa “cesto” e “ball”, bola. Portanto, no inglês é
+      Basketball.No basquetebol o objetivo é inserir a bola no cesto
+      correspondente à sua equipe. Portanto, há dois cestos em cada extremidade
+      de quadra a 3,05 metros do chão. O local onde está o cesto é chamado de
+      tabela. Vence a equipe que fizer mais pontos ao final do tempo
+      regulamentar da partida. O basquetebol é um esporte olímpico e um dos mais
+      populares do mundo.
+    </p>
+    <br />
+    <h3>Curiosidade sobre o basquete</h3>
+    <hr />
+    <button onClick="collapseCuriosidades()">Curiosidade</button>
+    <!--curiosidades sobre o esporte-->
+    <p id="curiosidades" class="desaparecer">
+      &emsp; Curioso notar que, no início, o esporte era praticado com uma bola
+      semelhante à de futebol. Somente em 1984 que a bola de basquete, tal qual
+      conhecemos hoje, foi desenvolvida. A modalidade feminina foi inserida pela
+      professora de educação física Senda Berenson (1868-1954). O primeiro jogo
+      de basquetebol nas Olimpíadas aconteceu nos Jogos Olímpicos de
+      <i>Berlim</i>, em 1936. No feminino, o basquetebol foi incluído nos Jogos
+      Olímpicos em 1976, em <i>Montreal</i>. No campeonato da NBA, nos Estados
+      Unidos, o tempo também é dividido em 4 períodos, contudo, cada um possui
+      12 minutos úteis de jogo, ao invés de 10. No início, o cesto de basquete
+      não era furado. Ou seja, cada vez que a bola entrava no cesto, alguém
+      precisava tirá-la com auxílio de uma escada, o que demandava mais tempo de
+      jogo.
+    </p>
+    <br />
+    <br />
+    <h3>O basquete no Brasil</h3>
+    <!--história do basquete no Brasil-->
+    <hr />
+    <p>
+      &emsp; O basquetebol chegou ao Brasil em 1896, trazido por imigrantes
+      norte-americanos. O primeiro jogo foi realizado no Colégio Mackenzie, em
+      <i>São Paulo</i>. A primeira partida oficial foi disputada em 1902, entre
+      os times do São Paulo Athletic Club e do <i>Mackenzie College</i>. O
+      basquete brasileiro começou a se destacar internacionalmente na década de
+      1930, com a formação da seleção brasileira e a participação em competições
+      internacionais.
+    </p>
+    <br />
+
+    <h3>As posições dos jogarores</h3>
+    <!--posições dos jogadores-->
+    <hr />
+    <p>
+      &emsp; O basquetebol é disputado entre duas equipes de 5 jogadores cada.
+      São classificados em <u>armadores</u>, <u>extremos</u> e <u>pivôs</u>.
+    </p>
+
+    <p>
+      <b>Armadores:</b> São os jogadores que têm a função de organizar as
+      jogadas da equipe. São responsáveis por conduzir a bola e distribuir o
+      jogo. São os responsáveis por armar as jogadas e fazer as assistências
+      para os companheiros de equipe.
+    </p>
+
+    <p>
+      <b>Extremos:</b>São os jogadores que têm a função de arremessar a bola de
+      longa distância. São os responsáveis por arremessar de fora do garrafão e,
+      muitas vezes, são os cestinhas da equipe.
+    </p>
+
+    <p>
+      <b>Pivôs:</b>São os jogadores que têm a função de jogar próximo cesta. São
+      os responsáveis por pegar rebotes e fazer cestas próximas ao aro. São os
+      jogadores mais altos da equipe e, muitas vezes, são os responsáveis por
+      bloquear os arremessos dos adversários.
+    </p>
+    <br />
+
+    <h3>Sobre a quadra de basquete</h3>
+    <!--regras da quadra de basquete-->
+    <hr />
+    <p>
+      &emsp; A National Basketball Association, mais conhecida como NBA, possui
+      as maiores dimensões de quadra de qualquer nível de basquete nacional ou
+      internacional. As dimensões externas são 28m de comprimento por 15m de
+      largura. A linha de meia quadra é a meio caminho entre cada linha de
+      fundo. No meio da linha da meia quadra há um círculo de ponta com um raio
+      de 1,82m, que geralmente exibe o logotipo do time da casa. A linha de três
+      pontos é a linha que circunda a quadra a 7,24m do aro. A linha de lance
+      livre é a linha que os jogadores ficam atrás quando tentam arremessar
+      lances livres. A linha de lance livre está a 4,57m do aro. A tabela é o
+      retângulo de vidro ou acrílico que fica atrás do aro. A tabela é de 1,83m
+      de largura por 1,07m de altura. A tabela é fixada a um aro de basquete por
+      uma estrutura de metal. A tabela é usada para ajudar a bola a entrar no
+      aro e para proteger os jogadores de se machucarem ao colidir com o aro.
+    </p>
+    <br />
+    <hr />
+    <br />
+    <center><h3>Melhores jogadores</h3></center>
+    <!--melhores jogadores-->
+    <b><h4>Masculinos</h4></b>
+    <ul>
+      <li>Michael Jordan</li>
+      <li>LeBron James</li>
+      <li>Kareem Abdul-Jabbar</li>
+      <li>Magic Johnson</li>
+      <li>Larry Bird</li>
+      <li>Bill Russell</li>
+    </ul>
+    <hr />
+
+    <b><h4>Femininas</h4></b>
+    <ul>
+      <li>Lisa Leslie</li>
+      <li>Diana Taurasi</li>
+      <li>Tamika Catchings</li>
+      <li>Cheryl Miller</li>
+      <li>Sue Bird</li>
+      <li>Sheryl Swoopes</li>
+    </ul>
+    <hr />
+    <br />
+    <b><h4>Fundamentos do Basquete</h4></b>
+    <ol>
+      <li>Controle do corpo</li>
+      <li>Manejo da bola</li>
+      <li>Drible</li>
+      <li>Passe</li>
+      <li>Arremesso</li>
+      <li>Bandeja</li>
+      <li>Rebote</li>
+    </ol>
+  </body>
+</html>
